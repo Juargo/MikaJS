@@ -9,5 +9,5 @@ angular.module("IndexApp",[])
 			.error(function(err){
 
 			});
-		$scope.cant = $scope.mangas.length;
+		$scope.cant = 1;
 	});

@@ -17,10 +17,9 @@
 	<h2>shave {{key}}</h2>
 		<ul>
 			<li ng-repeat="(tomo,capitulos ) in serie">
-				<strong>Tomo{{tomo}}</strong>
 				<ul>
-					<li ng-repeat="cap  in capitulos">
-						{{cap}}
+					<li ng-repeat="(cap,nombre)  in capitulos">
+						Tomo{{cap}}
 					</li>
 				</ul>
 				

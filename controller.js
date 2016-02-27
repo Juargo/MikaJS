@@ -5,7 +5,7 @@ angular.module("IndexApp",[])
 			.success(function(data){
 				$scope.mangas = data;
 				$scope.cant = $scope.mangas.length;
-				console.log($scope.mangas.length);
+				console.log($scope.mangas[0].length);
 			})
 			.error(function(err){
 

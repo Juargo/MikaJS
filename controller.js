@@ -1,10 +1,10 @@
 angular.module("IndexApp",[])
 	.controller("IndexController",function($scope,$http){
 		$http.get("http://http://gremiatico.cl/MikaJS/Data/Tomos.json")
-			.success(funtion(data){
+			.success(function(data){
 				console.log(data);
 			})
-			.error(funtion(err){
+			.error(function(err){
 
 			});
 	});

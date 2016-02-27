@@ -1,5 +1,5 @@
-[{
-		"One Piece":
+{ "series":[
+		{"One Piece":
 			{"1":
 				{
 					"Cap1": "Romance Dawn – Amanecer de la aventura",
@@ -12,8 +12,8 @@
 					"Cap8": "Introducción de Nami"
 				}
 			}
-		,
-		"Bleach" :
+		},
+		{"Bleach" :
 			{"1":
 				{
 					"Cap1": "Romance Dawn – Amanecer de la aventura",
@@ -26,6 +26,5 @@
 					"Cap8": "Introducción de Nami"
 				}
 			}
-		
-	}
-]
+		}
+]}

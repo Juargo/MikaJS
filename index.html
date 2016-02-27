@@ -13,10 +13,10 @@
 
 <body ng-controller="IndexController">
 <ul>
-	<li ng-repeat="(key, value) in mangas">
-	<h2>shave {{key}}</h2>
+	<li ng-repeat="serie in mangas">
+	<h2>shave {{serie}}</h2>
 		<ul>
-			<li ng-repeat="(keyd, valued) in mangas[0]">
+			<li ng-repeat="(keyd, valued) in serie">
 				<strong>Tomo{{keyd}}</strong>
 				
 			</li>

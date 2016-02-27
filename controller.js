@@ -4,7 +4,7 @@ angular.module("IndexApp",[])
 		$http.get("http://gremiatico.cl/MikaJS/Data/Tomos.json")
 			.success(function(data){
 				$scope.mangas = data;
-				console.log(data.length);
+				console.log($scope.mangas);
 			})
 			.error(function(err){
 

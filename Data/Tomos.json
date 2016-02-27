@@ -1,4 +1,4 @@
-[{
+{
 	"One Piece": {
 		"tomos": [{
 			"Cap1": "Romance Dawn – Amanecer de la aventura",
@@ -9,7 +9,8 @@
 			"Cap6": "La primera persona",
 			"Cap7": "Amigos",
 			"Cap8": "Introducción de Nami"
-}],
+		}]
+		},
 	"Bleach": {
 		"tomos": [{
 			"Cap1": "Romance Dawn – Amanecer de la aventura",
@@ -20,5 +21,8 @@
 			"Cap6": "La primera persona",
 			"Cap7": "Amigos",
 			"Cap8": "Introducción de Nami"
-}],
+		}]
+		},
 
+
+}

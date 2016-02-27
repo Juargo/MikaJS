@@ -16,11 +16,11 @@
 	<li ng-repeat="(key, value) in mangas">
 	<h2>shave {{key}}</h2>
 		<ul>
-			<li ng-repeat="(keyd, valued) in values">
+			<li ng-repeat="(keyd, valued) in mangas.tomos">
 				<strong>Tomo{{keyd}}</strong>
 				<ul>
-			<li ng-repeat="(keyt, valuet) in valued">
-				<strong>{{keyt}}: {{valuet}}</strong>
+					<li ng-repeat="(keyt, valuet) in valued">
+					<strong>{{keyt}}: {{valuet}}</strong>
 				
 			</li>
 		</ul>

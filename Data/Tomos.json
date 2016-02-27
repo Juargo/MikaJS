@@ -1,6 +1,6 @@
 	{
 		"One Piece":
-			{"1":[
+			{"1":
 				{
 					"Cap1": "Romance Dawn – Amanecer de la aventura",
 					"Cap2": "Ese chico, 'Luffy Sombrero de Paja'",
@@ -10,11 +10,11 @@
 					"Cap6": "La primera persona",
 					"Cap7": "Amigos",
 					"Cap8": "Introducción de Nami"
-				}]
+				}
 			}
 		,
 		"Bleach" :
-			{"1":[
+			{"1":
 				{
 					"Cap1": "Romance Dawn – Amanecer de la aventura",
 					"Cap2": "Ese chico, 'Luffy Sombrero de Paja'",
@@ -24,7 +24,7 @@
 					"Cap6": "La primera persona",
 					"Cap7": "Amigos",
 					"Cap8": "Introducción de Nami"
-				}]
+				}
 			}
 		
 	}

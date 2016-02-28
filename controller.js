@@ -4,6 +4,7 @@ angular.module("IndexApp",[])
 			attrs.$observe('logoImg',function(value){
 				element.css({
 					"background":"url("+value+")",
+					"background-size":"cover"
 				});
 			})
 		}

@@ -1,6 +1,6 @@
 [{
 		"nombre": "One Piece",
-		"logo": "",
+		"logo": "imgs/OnePiece/logo.jpg",
 		"descripcion": "",
 		"tomos": [{
 			"numero": 1,

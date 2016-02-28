@@ -13,10 +13,10 @@
 
 <body ng-controller="IndexController">
 <ul>
-	<li ng-repeat="series in mangas">
-	<h2>{{series.nombre}}</h2>
+	<li ng-repeat="(key,value) in mangas">
+	<h2>{{key}}</h2>
 		
-	
+	{{value}}
 	</li>
 </body>
 

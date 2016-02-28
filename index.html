@@ -14,10 +14,28 @@
 <body ng-controller="IndexController">
 <ul>
 	<li ng-repeat="series in mangas">
-	<h2>{{series}}</h2>
+	<h2>{{series.nombre}}</h2>
+
 		
-	{{series.nombre}}
+	{{series.descripcion}}
+
+	<ul>
+		<li ng-repeat="tomos in series.tomos">
+		
+		{{tomos.saga}}
+			<ul>
+				<li ng-repeat="capitulos in tomos.capitulos">
+				
+				Cap{{capitulos.numero}}:{{capitulos.nombre}}
+
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+
 	</li>
+</ul>
 </body>
 
 </html>

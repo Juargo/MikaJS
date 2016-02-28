@@ -1,5 +1,4 @@
-{
-	"Series": [{
+[{
 		"nombre": "One Piece",
 		"logo": "",
 		"descripcion": "",
@@ -14,5 +13,4 @@
 				"nombre": "Ese chico, 'Luffy Sombrero de Paja'"
 			}]
 		}]
-	}]
-}
+}]

@@ -1,30 +1,19 @@
 {
-	"One Piece": {
+	"Series": [{
+		"nombre": "One Piece",
+		"logo": "",
+		"descripcion": "",
 		"tomos": [{
-			"1":[{
-				"Cap1": "Romance Dawn – Amanecer de la aventura",
-				"Cap2": "Ese chico, 'Luffy Sombrero de Paja'",
-				"Cap3": "Introducción del 'Cazador de Piratas Zoro'",
-				"Cap4": "Capitán de la Marina 'Morgan Mano de Hacha'",
-				"Cap5": "Rey de los piratas y maestro espadachín",
-				"Cap6": "La primera persona",
-				"Cap7": "Amigos",
-				"Cap8": "Introducción de Nami"
-				}]
+			"numero": 1,
+			"saga": "",
+			"capitulos": [{
+				"numero": 1,
+				"nombre": "Romance Dawn – Amanecer de la aventura"
+			}, {
+				"numero": 2,
+				"nombre": "Ese chico, 'Luffy Sombrero de Paja'"
+			}]
 		}]
-		},
-	"Bleach": {
-		"tomos": [{
-			"Cap1": "Romance Dawn – Amanecer de la aventura",
-			"Cap2": "Ese chico, 'Luffy Sombrero de Paja'",
-			"Cap3": "Introducción del 'Cazador de Piratas Zoro'",
-			"Cap4": "Capitán de la Marina 'Morgan Mano de Hacha'",
-			"Cap5": "Rey de los piratas y maestro espadachín",
-			"Cap6": "La primera persona",
-			"Cap7": "Amigos",
-			"Cap8": "Introducción de Nami"
-		}]
-	}
-
-
+	}]
+}
 }

@@ -2,6 +2,8 @@
 		"nombre": "One Piece",
 		"logo": "imgs/OnePiece/logo.png",
 		"descripcion": "",
+		"ncapitulos":870,
+		"ntomos":80,
 		"tomos": [{
 			"numero": 1,
 			"saga": "Romance Down",

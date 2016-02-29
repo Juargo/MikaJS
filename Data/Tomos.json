@@ -7,6 +7,7 @@
 		"tomos": [{
 			"numero": 1,
 			"saga": "Romance Down",
+			"img":"imgs/OnePiece/1.png",
 			"capitulos": [{
 				"numero": 1,
 				"nombre": "Romance Dawn – Amanecer de la aventura"

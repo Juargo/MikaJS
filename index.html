@@ -31,7 +31,9 @@
 				</span>
 			</div>
 		</div> 
-		<div class="panel-body">   </div> 
+		<div class="panel-body" ng-repeat="tomos in series.tomos">
+			<div logo-img="{{tomos.img}}"></div>
+		</div> 
 	</div>
 </div>
 <ul>

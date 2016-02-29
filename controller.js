@@ -3,7 +3,6 @@ angular.module("IndexApp",[])
 		return function(scope,element,attrs){
 			attrs.$observe('logoImg',function(value){
 				element.css({
-					"background-size":"cover",
 					"margin-left":"-29px",
 					"margin-top":"-23px",
 					"background":"url("+value+")",
